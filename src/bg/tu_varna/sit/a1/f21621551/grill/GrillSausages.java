@@ -4,7 +4,7 @@ public class GrillSausages extends Grill{
 
     @Override
     public String toString() {
-        return super.toString() + "ловджийски наденички и печени картофи";
+        return super.toString() + "Грил наденички: ловджийски наденички и печени картофи";
     }
     
 }

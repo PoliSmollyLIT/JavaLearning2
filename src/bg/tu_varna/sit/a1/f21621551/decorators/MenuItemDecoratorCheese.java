@@ -10,11 +10,11 @@ public class MenuItemDecoratorCheese extends MenuItemDecorator{
 
     @Override
     public String cook() {
-        return super.cook() + addCheese();
+        return item.cook() + addCheese();
     }
     
     private String addCheese(){
-        return " + кашкавал ";
+        return " с кашкавал ";
     }
     
 }

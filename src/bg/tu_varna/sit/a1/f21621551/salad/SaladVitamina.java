@@ -4,7 +4,7 @@ public class SaladVitamina extends Salad{
 
     @Override
     public String toString() {
-        return "ябълки, червено цвекло и морковче";
+        return super.toString() + " Витамина: ябълки, червено цвекло и морковче";
     }
     
     

@@ -10,10 +10,10 @@ public class MenuItemDecoratorOlives extends MenuItemDecorator{
 
     @Override
     public String cook() {
-        return super.cook() + addBecon();
+        return item.cook() + addBecon();
     }
     
     private String addBecon(){
-        return " + маслини ";
+        return " с маслини ";
     }
 }

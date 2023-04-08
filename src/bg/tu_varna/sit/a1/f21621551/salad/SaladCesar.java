@@ -4,7 +4,7 @@ public class SaladCesar extends Salad{
 
     @Override
     public String toString() {
-        return "зелена салатка, крутони и месце, поляти със специален сос ";
+        return super.toString() + "Цезар: зелена салатка, крутони и месце, поляти със специален сос ";
     }
     
     

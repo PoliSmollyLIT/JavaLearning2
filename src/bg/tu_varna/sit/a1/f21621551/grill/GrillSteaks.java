@@ -4,7 +4,7 @@ public class GrillSteaks extends Grill{
 
     @Override
     public String toString() {
-        return super.toString() + "крехки свински пържолки, поднесени с картофена салата";
+        return super.toString() + "Грил пържолки: крехки свински пържолки, поднесени с картофена салата";
     }
     
     
